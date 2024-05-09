@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  background: rgb(171, 134, 233);
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  max-width: 605px;
+  margin: 50px auto;
+  padding: 30px 30px 25px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.container .quote-container {
+  margin: 35px 0;
+}
+
+.quote-container .quote-area {
+  display: flex;
+  justify-content: center;
+}
+
+.quote-area .quote {
+  font-size: 22px;
+  text-align: center;
+  word-break: break-all;
+}
+
+.container .author {
+  display: flex;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.new-quote-btn,
+.copy-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.loading {
+  opacity: 0.7;
+  cursor: wait;
+}
